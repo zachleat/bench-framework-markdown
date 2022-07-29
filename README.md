@@ -31,17 +31,32 @@ The first argument to each script is the number of pages (samples are provided f
 
 ## Results
 
+### Markdown Processing
+
 This result set was generated on a _MacBook Air (M1, 2020) with macOS Monterey 12.5 and 16 GB memory_.
 
-Each test was given 3 runs and the best time of each set was selected.
+Each test was given 3 runs and the best time of each set was selected. Times shown are in seconds.
 
 |Framework|250× `.md`|500× `.md`|1000× `.md`|2000× `.md`|4000× `.md`|
 |---|---|---|---|---|---|
-|Remix `1.6.5`|2.876|8.258|46.918|349.125|?|
-|Astro `1.0.0-rc2`|3.044|4.361|7.331|13.349|30.258|
-|Gatsby `4.19.0` (cli)|14.462|15.722|17.967|22.356|29.059|
-|Next.js `12.2.3`|6.552|6.932|8.034|9.582|13.409|
-|Eleventy `1.0.1`|0.584|0.683|0.914|1.250|1.938|
-|Hugo `v0.101.0+extended`|0.071|0.110|0.171|0.352|0.684|
+|Astro `1.0.0-rc2`|3.044s|4.361s|7.331s|13.349s|30.258s|
+|Eleventy `1.0.1`|0.584s|0.683s|0.914s|1.250s|1.938s|
+|Hugo `v0.101.0+extended`|0.071s|0.110s|0.171s|0.352s|0.684s|
+|Gatsby `4.19.0` (cli)|14.462s|15.722s|17.967s|22.356s|29.059s|
+|Next.js `12.2.3`|6.552s|6.932s|8.034s|9.582s|13.409s|
+|Remix `1.6.5`|2.876s|8.258s|46.918s|349.125s|> 1800s|
 
 View these [results in Chart form on Google Sheets](https://docs.google.com/spreadsheets/d/1wFWKkpNRsToixdGyWeznA8xaUB0ZJggpLiTPLnaeL4k/).
+
+### Installation
+
+Best time of 5 cold (`npm cache clean --force` before each) installs selected. Times shown are in seconds.
+
+|Framework|`npm install`|
+|---|---|
+|Astro `1.0.0-rc2`|19.870s|
+|Eleventy `1.0.1`|15.168s|
+|Eleventy `2.0.0-canary.14`|7.195s|
+|Gatsby `4.19.0` (cli)|68.516s|
+|Next.js `12.2.3`|15.589s|
+|Remix `1.6.5`|28.619|
