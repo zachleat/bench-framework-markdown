@@ -8,9 +8,9 @@ cd gatsby
 
 cd my-gatsby-site
 rm -rf .cache && rm -rf public && npx gatsby clean
+rm -rf ./src/pages/*.md
 echo "[bench] Clean complete"
 
-rm -rf ./src/pages/*.md
 if [ -z "$1" ]
   then count="1000"
 else
@@ -24,3 +24,6 @@ echo "[bench] Build complete $count pages"
 
 echo "[bench] Framework version"
 npx gatsby --version
+
+rm -rf ./src/pages/*.md
+echo "[bench] Posts cleanup complete"

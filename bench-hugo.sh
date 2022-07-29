@@ -17,3 +17,6 @@ echo "[bench] Build complete $count pages"
 
 echo "[bench] Framework version"
 hugo version
+
+rm -rf ./content/posts/*.md
+echo "[bench] Posts cleanup complete"

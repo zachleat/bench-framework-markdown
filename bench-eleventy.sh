@@ -17,3 +17,6 @@ echo "[bench] Build complete $count pages"
 
 echo "[bench] Framework version"
 npx @11ty/eleventy --version
+
+rm -rf ./posts/*.md
+echo "[bench] Posts cleanup complete"

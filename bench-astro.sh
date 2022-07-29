@@ -17,3 +17,6 @@ echo "[bench] Build complete $count pages"
 
 echo "[bench] Framework version"
 npx astro --version
+
+rm -rf ./src/pages/posts/*.md
+echo "[bench] Posts cleanup complete"

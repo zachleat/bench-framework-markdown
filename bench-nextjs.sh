@@ -26,3 +26,6 @@ echo "[bench] (add build and export times together)"
 
 echo "[bench] Framework version"
 npx next --version
+
+rm -rf ./_posts/*.md
+echo "[bench] Posts cleanup complete"

@@ -27,3 +27,6 @@ echo "[bench] Build complete $count pages"
 
 echo "[bench] Framework version"
 npx remix --version
+
+rm -rf ./app/routes/posts/*.md
+echo "[bench] Posts cleanup complete"
