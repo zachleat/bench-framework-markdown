@@ -35,7 +35,7 @@ This result set was generated on a _MacBook Air (M1, 2020) with macOS Monterey 1
 
 Each test was given 3 runs and the best time of each set was selected.
 
-|Framework|Markdown: 250|500|1000|2000|4000|
+|Framework|250× `.md`|500× `.md`|1000× `.md`|2000× `.md`|4000× `.md`|
 |---|---|---|---|---|---|
 |Remix `1.6.5`|2.876|8.258|46.918|349.125|?|
 |Astro `1.0.0-rc2`|3.044|4.361|7.331|13.349|30.258|
