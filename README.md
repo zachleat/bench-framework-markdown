@@ -43,3 +43,5 @@ Each test was given 3 runs and the best time of each set was selected.
 |Next.js `12.2.3`|6.552|6.932|8.034|9.582|13.409|
 |Eleventy `1.0.1`|0.584|0.683|0.914|1.250|1.938|
 |Hugo `v0.101.0+extended`|0.071|0.110|0.171|0.352|0.684|
+
+View these [results in Chart form on Google Sheets](https://docs.google.com/spreadsheets/d/1wFWKkpNRsToixdGyWeznA8xaUB0ZJggpLiTPLnaeL4k/).
