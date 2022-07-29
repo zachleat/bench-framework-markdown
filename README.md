@@ -33,7 +33,7 @@ The first argument to each script is the number of pages (samples are provided f
 
 ### Markdown Processing
 
-This result set was generated on a _MacBook Air (M1, 2020) with macOS Monterey 12.5 and 16 GB memory_.
+This result set was generated on a _MacBook Air (M1, 2020), macOS Monterey 12.5, 16 GB memory_.
 
 Each test was given 3 runs and the best time of each set was selected. Times shown are in seconds.
 
@@ -49,6 +49,8 @@ Each test was given 3 runs and the best time of each set was selected. Times sho
 View these [results in Chart form on Google Sheets](https://docs.google.com/spreadsheets/d/1wFWKkpNRsToixdGyWeznA8xaUB0ZJggpLiTPLnaeL4k/).
 
 ### Installation
+
+This result set was generated on a _MacBook Air (M1, 2020), macOS Monterey 12.5, 16 GB memory_.
 
 Best time of 5 cold (`npm cache clean --force` before each) installs selected. Times shown are in seconds.
 
