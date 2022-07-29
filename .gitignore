@@ -1,0 +1,22 @@
+**/node_modules/**
+
+# Framework specific posts input and output/built folders
+gatsby/my-gatsby-site/dist
+gatsby/my-gatsby-site/src/pages/posts/*.md
+
+eleventy/_site
+eleventy/posts/*.md
+
+hugo/quickstart/public
+hugo/quickstart/content/posts/*.md
+
+nextjs/my-app/.next
+nextjs/my-app/out
+nextjs/my-app/_posts/*.md
+
+remix/my-remix-app/.cache
+remix/my-remix-app/build
+remix/my-remix-app/app/routes/posts/*.md
+
+astro/my-astro-site/dist
+astro/my-astro-site/src/pages/posts/*.md
