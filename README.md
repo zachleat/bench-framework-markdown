@@ -59,4 +59,4 @@ Best time of 5 cold (`npm cache clean --force` before each) installs selected. T
 |Eleventy `2.0.0-canary.14`|7.195s|
 |Gatsby `4.19.0` (cli)|68.516s|
 |Next.js `12.2.3`|15.589s|
-|Remix `1.6.5`|28.619|
+|Remix `1.6.5`|28.619s|
