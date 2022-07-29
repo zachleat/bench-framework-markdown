@@ -60,3 +60,5 @@ Best time of 5 cold (`npm cache clean --force` before each) installs selected. T
 |Gatsby `4.19.0` (cli)|68.516s|
 |Next.js `12.2.3`|15.589s|
 |Remix `1.6.5`|28.619s|
+
+View these [results in Chart form on Google Sheets](https://docs.google.com/spreadsheets/d/1q38KB7cmD6Mk3Fxm7vY-pdmFdrN6kbq3DhuMmB9kij0/).
