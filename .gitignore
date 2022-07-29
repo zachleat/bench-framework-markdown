@@ -20,6 +20,8 @@ remix/my-remix-app/app/routes/posts/*.md
 
 astro/my-astro-site/dist
 astro/my-astro-site/src/pages/posts/*.md
+astro-with-mdx/my-astro-site/dist
+astro-with-mdx/my-astro-site/src/pages/posts/*.md
 
 # Prereleases
 bench-eleventy-v2.sh

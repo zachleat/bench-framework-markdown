@@ -16,6 +16,7 @@ The first argument to each script is the number of pages (samples are provided f
 
 ```sh
 ./bench-astro.sh 250
+./bench-astro-with-mdx.sh 250
 ./bench-remix.sh 250
 ./bench-nextjs.sh 250
 ./bench-gatsby.sh 250
