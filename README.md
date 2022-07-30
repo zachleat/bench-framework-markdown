@@ -2,6 +2,8 @@
 
 A set of scripts to test markdown processing speeds in various site generators/frameworks.
 
+* [Read the blog post: Which Generator builds Markdown the fastest?](https://www.zachleat.com/web/build-benchmark/)
+
 ## Installation
 
 Install each framework, a script is provided:
