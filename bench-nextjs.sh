@@ -5,6 +5,8 @@
 
 cd nextjs/my-app
 
+mkdir -p ./_posts
+
 rm -rf .next && rm -rf out
 rm -rf ./_posts/*.md
 echo "[bench] Clean complete"

@@ -1,5 +1,7 @@
 cd hugo/quickstart
 
+mkdir -p ./content/posts
+
 rm -rf public
 rm -rf ./content/posts/*.md
 echo "[bench] Clean complete"

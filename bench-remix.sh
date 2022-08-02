@@ -10,7 +10,7 @@
 
 cd remix/my-remix-app
 
-mkdir ./app/routes/posts
+mkdir -p ./app/routes/posts
 
 rm -rf .cache && rm -rf build
 rm -rf ./app/routes/posts/*.md
