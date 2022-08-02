@@ -14,6 +14,10 @@ nextjs/my-app/.next
 nextjs/my-app/out
 nextjs/my-app/_posts/*.md
 
+nextjs-file-routing/my-app/.next
+nextjs-file-routing/my-app/out
+nextjs-file-routing/my-app/_posts/*.md
+
 remix/my-remix-app/.cache
 remix/my-remix-app/build
 remix/my-remix-app/posts/*.md
