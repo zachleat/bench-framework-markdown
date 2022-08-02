@@ -10,6 +10,8 @@
 
 cd remix/my-remix-app
 
+mkdir ./app/routes/posts
+
 rm -rf .cache && rm -rf build
 rm -rf ./app/routes/posts/*.md
 echo "[bench] Clean complete"
