@@ -10,10 +10,10 @@
 
 cd remix/my-remix-app
 
-mkdir -p ./_posts
+mkdir -p ./app/routes/posts
 
 rm -rf .cache && rm -rf build
-rm -rf ./_posts/*.md
+rm -rf ./app/routes/posts/*.md
 echo "[bench] Clean complete"
 
 if [ -z "$1" ]
@@ -21,7 +21,7 @@ if [ -z "$1" ]
 else
   count="$1"
 fi
-cp ../../_markdown-samples/$count/* ./_posts/
+cp ../../_markdown-samples/$count/* ./app/routes/posts/
 echo "[bench] Setup complete $count pages"
 
 time npx remix build
@@ -30,5 +30,5 @@ echo "[bench] Build complete $count pages"
 echo "[bench] Framework version"
 npx remix --version
 
-rm -rf ./_posts/*.md
+rm -rf ./app/routes/posts/*.md
 echo "[bench] Posts cleanup complete"
