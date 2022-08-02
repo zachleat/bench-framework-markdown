@@ -19,7 +19,7 @@ if [ -z "$1" ]
 else
   count="$1"
 fi
-cp ../../_markdown-samples/$count/* ./app/routes/posts/
+cp ../../_markdown-samples/$count/* ./posts/
 echo "[bench] Setup complete $count pages"
 
 time npx remix build

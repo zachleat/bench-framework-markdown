@@ -2,22 +2,35 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build",
+    "build": "remix-ssg public",
     "dev": "remix dev",
-    "start": "remix-serve build",
+    "start": "serve -l 3000 public",
     "clean": "rm -rf .cache && rm -rf build"
   },
   "dependencies": {
     "@remix-run/node": "^1.6.5",
     "@remix-run/react": "^1.6.5",
     "@remix-run/serve": "^1.6.5",
+    "front-matter": "^4.0.2",
+    "highlight.js": "^11.6.0",
+    "html-to-react": "^1.5.0",
+    "marked": "^4.0.18",
+    "node-emoji": "^1.11.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "sanitize-html": "^2.7.1",
+    "serve": "^14.0.1"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.6.5",
     "@remix-run/eslint-config": "^1.6.5",
-    "eslint": "^8.20.0"
+    "@types/marked": "^4.0.3",
+    "@types/node-emoji": "^1.8.1",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/sanitize-html": "^2.6.2",
+    "eslint": "^8.20.0",
+    "remix-ssg": "^0.0.8"
   },
   "engines": {
     "node": ">=14"
