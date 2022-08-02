@@ -2,9 +2,8 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix-ssg public",
+    "build": "remix build",
     "dev": "remix dev",
-    "start": "serve -l 3000 public",
     "clean": "rm -rf .cache && rm -rf build"
   },
   "dependencies": {
@@ -29,8 +28,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@types/sanitize-html": "^2.6.2",
-    "eslint": "^8.20.0",
-    "remix-ssg": "^0.0.8"
+    "eslint": "^8.20.0"
   },
   "engines": {
     "node": ">=14"
