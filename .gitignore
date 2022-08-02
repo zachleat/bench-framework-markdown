@@ -16,7 +16,7 @@ nextjs/my-app/_posts/*.md
 
 remix/my-remix-app/.cache
 remix/my-remix-app/build
-remix/my-remix-app/app/routes/posts/*.md
+remix/my-remix-app/posts/*.md
 
 astro/my-astro-site/dist
 astro/my-astro-site/src/pages/posts/*.md
