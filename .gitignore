@@ -22,6 +22,10 @@ remix/my-remix-app/.cache
 remix/my-remix-app/build
 remix/my-remix-app/posts/*.md
 
+remix-file-routing/my-remix-app/.cache
+remix-file-routing/my-remix-app/build
+remix-file-routing/my-remix-app/posts/*.md
+
 astro/my-astro-site/dist
 astro/my-astro-site/src/pages/posts/*.md
 

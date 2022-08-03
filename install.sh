@@ -25,8 +25,20 @@ rm -rf node_modules && rm -rf package-lock.json
 npm cache clean --force # For benchmarking cold npm install
 time npm install
 
+echo "[bench] Install next (file routing)"
+cd ../../nextjs-file-routing/my-app
+rm -rf node_modules && rm -rf package-lock.json
+npm cache clean --force # For benchmarking cold npm install
+time npm install
+
 echo "[bench] Install remix"
 cd ../../remix/my-remix-app
+rm -rf node_modules && rm -rf package-lock.json
+npm cache clean --force # For benchmarking cold npm install
+time npm install
+
+echo "[bench] Install remix (file routing)"
+cd ../../remix-file-routing/my-remix-app
 rm -rf node_modules && rm -rf package-lock.json
 npm cache clean --force # For benchmarking cold npm install
 time npm install
