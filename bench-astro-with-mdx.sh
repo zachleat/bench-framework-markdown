@@ -1,5 +1,7 @@
 cd astro-with-mdx/my-astro-site
 
+mkdir -p ./src/pages/posts
+
 rm -rf dist
 rm -rf ./src/pages/posts/*.md
 echo "[bench] Clean complete"
