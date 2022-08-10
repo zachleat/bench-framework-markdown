@@ -26,8 +26,6 @@ remix-file-routing/my-remix-app/.cache
 remix-file-routing/my-remix-app/build
 remix-file-routing/my-remix-app/posts/*.md
 
-astro/my-astro-site/dist
-astro/my-astro-site/src/pages/posts/*.md
 astro-with-mdx/my-astro-site/dist
 astro-with-mdx/my-astro-site/src/pages/posts/*.md
 

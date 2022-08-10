@@ -1,4 +1,4 @@
-cd astro/my-astro-site
+cd astro-with-mdx/my-astro-site
 
 mkdir -p ./src/pages/posts
 

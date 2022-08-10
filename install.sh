@@ -2,12 +2,6 @@
 #time brew install hugo
 
 echo "[bench] Install astro"
-cd astro/my-astro-site
-rm -rf node_modules && rm -rf package-lock.json
-npm cache clean --force # For benchmarking cold npm install
-time npm install
-
-echo "[bench] Install astro with mdx"
 cd astro-with-mdx/my-astro-site
 rm -rf node_modules && rm -rf package-lock.json
 npm cache clean --force # For benchmarking cold npm install
