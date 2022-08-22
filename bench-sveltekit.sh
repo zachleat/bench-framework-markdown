@@ -1,5 +1,7 @@
 cd sveltekit/
 
+mkdir -p ./src/lib/posts/
+
 rm -rf build
 echo "[bench] Clean complete"
 

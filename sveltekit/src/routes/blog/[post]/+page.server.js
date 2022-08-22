@@ -1,5 +1,4 @@
 export const load = async ({ params }) => {
-  console.log(params.post)
   const thisPost = await import(`../../../lib/posts/${params.post}.md`)
 
   const { metadata } = thisPost
