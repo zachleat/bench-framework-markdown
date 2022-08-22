@@ -42,3 +42,9 @@ cd ../../remix-file-routing/my-remix-app
 rm -rf node_modules && rm -rf package-lock.json
 npm cache clean --force # For benchmarking cold npm install
 time npm install
+
+echo "[bench] Install sveltekit (mdsvex + static adapter)"
+cd ../../sveltekit
+rm -rf node_modules && rm -rf package-lock.json
+npm cache clean --force # For benchmarking cold npm install
+time npm install
