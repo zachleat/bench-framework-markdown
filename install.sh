@@ -48,3 +48,9 @@ cd ../../sveltekit
 rm -rf node_modules && rm -rf package-lock.json
 npm cache clean --force # For benchmarking cold npm install
 time npm install
+
+echo "[bench] Install nuxt"
+cd ../../nuxt
+rm -rf node_modules && rm -rf package-lock.json
+npm cache clean --force # For benchmarking cold npm install
+time npm install
