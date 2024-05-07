@@ -22,10 +22,6 @@ echo "[bench] Setup complete $count pages"
 time npx next build
 echo "[bench] Build complete $count pages"
 
-time npx next export
-echo "[bench] Export complete $count pages"
-echo "[bench] (add build and export times together)"
-
 echo "[bench] Framework version"
 npx next --version
 
