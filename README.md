@@ -21,10 +21,7 @@ The first argument to each script is the number of pages (samples are provided f
 ./bench-eleventy.sh 250
 ./bench-gatsby.sh 250
 ./bench-hugo.sh 250
-./bench-nextjs.sh 250
 ./bench-nextjs-file-routing.sh 250
-./bench-remix.sh 250
-./bench-remix-file-routing.sh 250
 
 ./bench-eleventy.sh 250
 ./bench-eleventy.sh 500
