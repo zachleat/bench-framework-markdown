@@ -1,5 +1,7 @@
 cd eleventy
 
+mkdir -p ./posts/
+
 rm -rf _site
 rm -rf ./posts/*.md
 echo "[bench] Clean complete"
