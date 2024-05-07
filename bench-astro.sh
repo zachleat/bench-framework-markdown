@@ -14,7 +14,8 @@ fi
 cp ../../_markdown-samples/$count/* ./src/pages/posts/
 echo "[bench] Setup complete $count pages"
 
-time npx astro build
+# Astro default outputs everything to the console, --silent is faster.
+time npx astro build --silent
 echo "[bench] Build complete $count pages"
 
 echo "[bench] Framework version"
