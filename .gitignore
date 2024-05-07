@@ -10,25 +10,11 @@ eleventy/posts/*.md
 hugo/quickstart/public
 hugo/quickstart/content/posts/*.md
 
-nextjs/my-app/.next
-nextjs/my-app/out
-nextjs/my-app/_posts/*.md
-
 nextjs-file-routing/my-app/.next
 nextjs-file-routing/my-app/out
 nextjs-file-routing/my-app/_posts/*.md
-
-remix/my-remix-app/.cache
-remix/my-remix-app/build
-remix/my-remix-app/posts/*.md
-
-remix-file-routing/my-remix-app/.cache
-remix-file-routing/my-remix-app/build
-remix-file-routing/my-remix-app/posts/*.md
 
 astro-with-mdx/my-astro-site/dist
 astro-with-mdx/my-astro-site/src/pages/posts/*.md
 
 # Prereleases
-bench-eleventy-v2.sh
-eleventy-v2/
